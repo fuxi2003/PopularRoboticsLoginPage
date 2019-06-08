@@ -1,0 +1,25 @@
+{
+  "name": "martinheidegger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "basicauth-middleware": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.14.0",
+    "express-art-template": "^1.0.1",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.13",
+    "pug": "^2.0.3",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

@@ -1,0 +1,26 @@
+var tplStr =
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title> Popularrobotics Dashboard</title>
+    <link rel="stylesheet" href="/pubic/lib/bootstrap/dist/css/bootstrap.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jqueary.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      #packt ,h1{
+        margin:20px;
+        padding:15px;
+      }
+    </style>
+  </head>
+  <body>
+    <p> Teamname {{Teamname}}</p>
+    <p> YourTeam {{YourTeam}}  </p>
+    <h1> telephone {{telephone}}</h1>
+    <p>  hobbies {{each hobbies}} {{$value}} {{/each}} </p>
+    <script>
+      var foo = {{title}}
+    </script>
+  </body>
+</html>
